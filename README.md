@@ -18,11 +18,11 @@ A small Python program was used to clean the data and attempt to standardize the
 
 How was the data cleaned or transformed? Be specific.​
 
-    - Additional columns with contextual notes such as the “data_as_of” and “footnotes”     columns were dropped to     make the data more legible
-    -  A date column was added (date data type) using a     combination of the year and month columns present in the original dataset. The year and month columns were then dropped as well.
-    - All text columns were converted to “str” type and all numerical were converted to     “float” type.
-    - Column titles were changed to lowercase for readability.
-    - All NaNs in string-type columns were replaced with blanks for easier processing.
+- Additional columns with contextual notes such as the “data_as_of” and “footnotes” columns were dropped to make the data more legible
+-  A date column was added (date data type) using a combination of the year and month columns present in the original dataset. The year and month columns were then dropped as well.
+- All text columns were converted to “str” type and all numerical were converted to “float” type.
+- Column titles were changed to lowercase for readability.
+- All NaNs in string-type columns were replaced with blanks for easier processing.
 
 What are the units of the numeric data?​
 
@@ -38,16 +38,16 @@ The data was mapped to have consistent blank types and data typing. In addition,
 
 What are the definitions for the column names? Include all columns in your dataset.​
 
-    -jurisdiction_residence: Location of where the data was     sourced from (10 HHS Regions)
-    -group: Defines the groups present in the following subgroup columns (i.e. Race: only Race in subgroup1 or Race and Age: Race as subgroup1 and Age as subgroup2)
-    - subgroup1: One of the categorical subgroups (Sex, Race, or Age)
-    - subgroup2: An additional categorical subgroup (not always applicable.
-    - covid_deaths: Raw number of reported covid deaths
-    - crude_covid_rate: Death rate per population (using 2021 population data
-    - aa_covid_rate: Age-Adjusted covid death rate using 2000 standard population.
-    - crude_covid_rate_ann: Annual covid death rate
-    - aa_covid_rate_ann: Age-adjusted annual covid death rate
-    - date: Date for which data was collected (month and year, always pegged as the first day of that month. I.e. January data Is shown with a date of 1-1-20).
+- jurisdiction_residence: Location of where the data was sourced from (10 HHS Regions)
+- group: Defines the groups present in the following subgroup columns (i.e. Race: only Race in subgroup1 or Race and Age: Race as subgroup1 and Age as subgroup2)
+- subgroup1: One of the categorical subgroups (Sex, Race, or Age)
+- subgroup2: An additional categorical subgroup (not always applicable.
+- covid_deaths: Raw number of reported covid deaths
+- crude_covid_rate: Death rate per population (using 2021 population data
+- aa_covid_rate: Age-Adjusted covid death rate using 2000 standard population.
+- crude_covid_rate_ann: Annual covid death rate
+- aa_covid_rate_ann: Age-adjusted annual covid death rate
+- date: Date for which data was collected (month and year, always pegged as the first day of that month. I.e. January data Is shown with a date of 1-1-20).
 
 If there are set variable options in your dataset, what are their definitions? ​
 
