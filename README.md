@@ -1,5 +1,6 @@
 # DSSA-5102
 
+Accessed 01/25/2024
 Summary
 
 This data is on COVID-19 death counts and rates in the United States, categorized by month, year of death, residence jurisdiction (U.S., HHS Region), and demographic characteristics (sex, age, race, Hispanic origin). The counts include deaths confirmed or presumed to be due to COVID-19. The information reflects the total number of deaths as of the date of analysis and may not encompass all deaths during the specified period. Data completeness varies due to reporting delays, ranging from 1 to 8 weeks or more. Regional disparities exist in reporting frequency, with some states reporting daily and others weekly or monthly. This data uses 2021 population estimates and age-adjustment methods. The ten HHS regions are listed, and the rates are age-adjusted to the 2000 standard population using the direct method. 
